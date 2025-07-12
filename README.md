@@ -30,7 +30,7 @@ To develop a Neural Network Model that predicts whether a student will be placed
 2. Preprocess Data: Normalize feature values between 0 and 1.
 3. Split Dataset: Divide the dataset into 80% training and 20% testing sets.
 4. Build Neural Network:
-    - Input Layer: 4 nodes (GPA, Work Experience, Interview Score, Skills Score).
+    - Input Layer: 3 nodes (GPA, Interview Score, Skills Score).
     - Hidden Layers: 2 layers with ReLU activation.
     - Output Layer: 1 node with Sigmoid activation.
 5. Compile Model: Use Adam optimizer and binary cross-entropy loss function.
@@ -43,7 +43,7 @@ To develop a Neural Network Model that predicts whether a student will be placed
 - The data is normalized by scaling values between 0 and 1 to improve model performance.
 
 ## Neural Network Architecture
-- The input layer consists of 4 nodes (one for each feature).
+- The input layer consists of 3 nodes (one for each feature).
 - Two hidden layers with ReLU activation enhance the network’s ability to learn complex patterns.
 - The output layer has one node with a sigmoid activation function, classifying whether the student will be placed (1) or not (0).
 
