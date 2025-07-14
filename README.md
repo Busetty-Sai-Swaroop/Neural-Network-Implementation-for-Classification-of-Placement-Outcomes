@@ -58,3 +58,6 @@ To develop a Neural Network Model that predicts whether a student will be placed
 
 ## Conclusion
 This project successfully developed a Feed-Forward Neural Network (FNN) to predict student placement based on academic and skill-related factors. The model achieved high accuracy in predictions by normalizing features, training on real-world data, and optimizing the neural network architecture. The system provides real-time placement probability estimates, helping students and institutions analyze strengths and weaknesses for better job preparation.
+
+
+## How to setup or run the model
